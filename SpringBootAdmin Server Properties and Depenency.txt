@@ -20,7 +20,8 @@ spring.security.user.password=admin123
 
 
 
-OR
+OR //after complete <dependenciew> tag
+		<dependencyManagement>
 			<dependency>
 				<groupId>de.codecentric</groupId>
 				<artifactId>spring-boot-admin-dependencies</artifactId>
@@ -28,3 +29,4 @@ OR
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+	</dependencyManagement>
